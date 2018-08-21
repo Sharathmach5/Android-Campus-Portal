@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/ab"
+        android:text="Attendance"
+        android:textColor="#ffffff" 
+        android:textSize="10pt"
+        android:textStyle="bold" /> 
+
+    <Button
+        android:id="@+id/button2" 
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"   
+        android:layout_marginLeft="70dp" 
+        android:background="@drawable/ab"    
+        android:text="Marks"
+        android:textStyle="bold"
+        android:textSize="10pt" 
+        android:textColor="#ffffff"
+      />  
+<Button
+        android:id="@+id/button3"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ab"
+        android:text="Events"
+        android:textColor="#ffffff"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button4" 
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp" 
+        android:layout_marginLeft="70dp" 
+        android:background="@drawable/ab" 
+        android:text="Placements"
+        android:textStyle="bold"
+        android:textSize="10pt" 
+        android:textColor="#ffffff"
+      />  
+    <Button
+        android:id="@+id/logout" 
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp" 
+        android:layout_marginLeft="70dp" 
+        android:background="@drawable/ab" 
+        android:text="logout"
+        android:textStyle="bold"
+        android:textSize="10pt" 
+        android:textColor="#ffffff"
+      />
+</LinearLayout>

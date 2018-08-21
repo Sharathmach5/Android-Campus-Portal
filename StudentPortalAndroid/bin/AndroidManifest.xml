@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.howlong"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <permission
+        android:name="com.example.howlong.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.howlong.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--
+     The following two permissions are not required to use
+     Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/blogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.howlong.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.howlong.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.UserActivity"
+            android:label="@string/title_activity_user" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.BusRoute"
+            android:label="@string/title_activity_bus_route" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.TrackBus"
+            android:label="@string/title_activity_track_bus" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.SearchList"
+            android:label="@string/title_activity_search_list" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.ResultActivity"
+            android:label="@string/title_activity_result" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.ForMap"
+            android:label="@string/title_activity_for_map" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBdAFvt14eukFpy63_AU840mrrexWyVH-g" />
+
+        <activity
+            android:name="com.example.howlong.LoginActivityList"
+            android:label="@string/title_activity_login_activity_list" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.RegisterActivityList"
+            android:label="@string/title_activity_register_activity_list" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.DriverRegister"
+            android:label="@string/title_activity_driver_register" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.FacultyRegister"
+            android:label="@string/title_activity_faculty_register" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.DriverLogin"
+            android:label="@string/title_activity_driver_login" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.FacultyLogin"
+            android:label="@string/title_activity_faculty_login" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.DriverHome"
+            android:label="@string/title_activity_driver_home" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.RecieverRegister"
+            android:label="@string/title_activity_reciever_register" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.RecieverLogin"
+            android:label="@string/title_activity_reciever_login" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.DonorHome"
+            android:label="@string/title_activity_donor_home" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.Reciever"
+            android:label="@string/title_activity_reciever" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.RecieverHome"
+            android:label="@string/title_activity_reciever_home" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.BloodBank"
+            android:label="@string/title_activity_blood_bank" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.SearchBlood"
+            android:label="@string/title_activity_search_blood" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.UpdateStatus"
+            android:label="@string/title_activity_update_status" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.ResultBlood"
+            android:label="@string/title_activity_result_blood" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.BloodResult"
+            android:label="@string/title_activity_blood_result" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.DonorResult"
+            android:label="@string/title_activity_donor_result" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.CheckRequest"
+            android:label="@string/title_activity_check_request" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.CheckStatus"
+            android:label="@string/title_activity_check_status" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.CourtSearch"
+            android:label="@string/title_activity_court_search" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.LawyerHome"
+            android:label="@string/title_activity_lawyer_home" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.LawyerSearch"
+            android:label="@string/title_activity_lawyer_search" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.IpcSearch"
+            android:label="@string/title_activity_ipc_search" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.CheckCases"
+            android:label="@string/title_activity_check_cases" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.LawyerSearchList"
+            android:label="@string/title_activity_lawyer_search_list" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.StudentHome"
+            android:label="@string/title_activity_student_home" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.Attendance"
+            android:label="@string/title_activity_attendance" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.Marks"
+            android:label="@string/title_activity_marks" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.Events"
+            android:label="@string/title_activity_events" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.Placements"
+            android:label="@string/title_activity_placements" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.Month"
+            android:label="@string/title_activity_month" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.Total"
+            android:label="@string/title_activity_total" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.DisplayMarks"
+            android:label="@string/title_activity_display_marks" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.MarkLink"
+            android:label="@string/title_activity_mark_link" >
+        </activity>
+        <activity
+            android:name="com.example.howlong.MarksDisplay"
+            android:label="@string/title_activity_marks_display" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Student Portal</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_activity_bus_route">BusRoute</string>
+    <string name="title_activity_track_bus">TrackBus</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_for_map">ForMap</string>
+    <string name="title_activity_login_activity_list">LoginActivityList</string>
+    <string name="title_activity_register_activity_list">RegisterActivityList</string>
+    <string name="title_activity_driver_register">DriverRegister</string>
+    <string name="title_activity_faculty_register">FacultyRegister</string>
+    <string name="title_activity_driver_login">DriverLogin</string>
+    <string name="title_activity_faculty_login">FacultyLogin</string>
+    <string name="title_activity_driver_home">DriverHome</string>
+    <string name="title_activity_reciever_register">RecieverRegister</string>
+    <string name="title_activity_reciever_login">RecieverLogin</string>
+    <string name="title_activity_donor_home">DonorHome</string>
+    <string name="title_activity_reciever">Reciever</string>
+    <string name="title_activity_reciever_home">RecieverHome</string>
+    <string name="title_activity_blood_bank">BloodBank</string>
+    <string name="title_activity_search_blood">SearchBlood</string>
+    <string name="title_activity_update_status">UpdateStatus</string>
+    <string name="title_activity_result_blood">ResultBlood</string>
+    <string name="title_activity_blood_result">BloodResult</string>
+    <string name="title_activity_donor_result">DonorResult</string>
+    <string name="title_activity_check_request">CheckRequest</string>
+    <string name="title_activity_check_status">CheckStatus</string>
+    <string name="title_activity_search_list">SearchList</string>
+    <string name="title_activity_lawyer_search">LawyerSearch</string>
+    <string name="title_activity_ipc_search">IpcSearch</string>
+    <string name="title_activity_court_search">CourtSearch</string>
+    <string name="title_activity_lawyer_home">LawyerHome</string>
+    <string name="title_activity_check_cases">CheckCases</string>
+    <string name="title_activity_lawyer_search_list">LawyerSearchList</string>
+    <string name="title_activity_student_home">StudentHome</string>
+    <string name="title_activity_attendance">Attendance</string>
+    <string name="title_activity_marks">Marks</string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_placements">Placements</string>
+    <string name="title_activity_month">Month</string>
+    <string name="title_activity_total">Total</string>
+    <string name="title_activity_display_marks">DisplayMarks</string>
+    <string name="title_activity_mark_link">MarkLink</string>
+    <string name="title_activity_marks_display">MarksDisplay</string>
+
+</resources>
